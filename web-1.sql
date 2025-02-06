@@ -149,36 +149,38 @@ INSERT INTO can_ho (ten_toa_can_ho, ten_can_ho, loai_can_ho, chu_thich, tinh_tra
 ('BS1513.23', '107', '2br2wc', '', 'Full nội thất', 'Thuê', 7, '72m²(Tim) - 68m²(TT)', 9500000, 2600000000, 'Nam'),
 ('BS1513.24', '108', '3br3wc', '', 'Trống', 'Bán', 8, '92m²(Tim) - 88m²(TT)', 0, 3500000000, 'Tây Bắc'),
 ('BS1513.25', '109', '1br plus', 'Sơ cấp', 'Bếp rèm', 'Thuê', 9, '58m²(Tim) - 52m²(TT)', 7500000, 1700000000, 'Đông Nam'),
-('BS1513.26', '110', '2br2wc', '', 'Full nội thất', 'Bán', 10, '75m²(Tim) - 70m²(TT)', 0, 2900000000, 'Tây Nam');
+('BS1513.26', '110', '2br2wc', '', 'Full nội thất', 'Bán', 10, '75m²(Tim) - 70m²(TT)', 0, 2900000000, 'Tây Nam'),
+('BS2515.10', '111', 'stu', '', 'Full nội thất', 'Bán', 10, '40m²(Tim) - 50m²(TT)', 0, 1900000000, 'Tây Bắc');
 
 -- Thêm dữ liệu cho bảng hinh_anh_can_ho
 INSERT INTO hinh_anh_can_ho (id_can_ho, duong_dan_hinh) VALUES
+(1, 'https://vinhome.com.vn/wp-content/uploads/2023/04/mat-abng.jpg'),
 (1, 'https://images.placeholders.dev/350'),
 (1, 'https://images.placeholders.dev/350'),
 (1, 'https://images.placeholders.dev/350'),
 (1, 'https://images.placeholders.dev/350'),
-(1, 'https://images.placeholders.dev/350'),
+(2, 'https://i.pinimg.com/236x/1c/f3/98/1cf3984e15de48a2ebff863c86324835.jpg'),
 (2, 'https://images.placeholders.dev/350'),
 (2, 'https://images.placeholders.dev/350'),
 (2, 'https://images.placeholders.dev/350'),
-(2, 'https://images.placeholders.dev/350'),
+(3, 'https://i.pinimg.com/236x/ae/10/72/ae1072da514b4c6d3fd460b619b49a08.jpg'),
 (3, 'https://images.placeholders.dev/350'),
-(3, 'https://images.placeholders.dev/350'),
+(4, 'https://i.pinimg.com/236x/50/e9/c1/50e9c1b309abbdcbb15def6e7225676d.jpg'),
 (4, 'https://images.placeholders.dev/350'),
 (4, 'https://images.placeholders.dev/350'),
-(4, 'https://images.placeholders.dev/350'),
+(5, 'https://i.pinimg.com/236x/2a/18/ad/2a18adfe306bb820835f776bc497483c.jpg'),
 (5, 'https://images.placeholders.dev/350'),
-(5, 'https://images.placeholders.dev/350'),
+(6, 'https://i.pinimg.com/236x/a3/ae/67/a3ae67725e137b71e64c3a4e3da92ddb.jpg'),
 (6, 'https://images.placeholders.dev/350'),
-(6, 'https://images.placeholders.dev/350'),
-(7, 'https://images.placeholders.dev/350'),
-(7, 'https://images.placeholders.dev/350'),
+(7, 'https://i.pinimg.com/236x/c0/e5/e5/c0e5e5e92703f3139b27c506fae66997.jpg'),
+(7, 'https://i.pinimg.com/236x/c0/e5/e5/c0e5e5e92703f3139b27c506fae66997.jpg'),
+(8, 'https://i.pinimg.com/236x/78/ee/84/78ee8464941b8ee96498dccbfb0bcde6.jpg'),
 (8, 'https://images.placeholders.dev/350'),
-(8, 'https://images.placeholders.dev/350'),
+(9, 'https://i.pinimg.com/236x/1c/c1/70/1cc170682cebb1cf858133e6d20d6dd5.jpg'),
 (9, 'https://images.placeholders.dev/350'),
-(9, 'https://images.placeholders.dev/350'),
+(10, 'https://i.pinimg.com/236x/ce/94/d5/ce94d56abfc81b8f946048b3058774a7.jpg'),
 (10, 'https://images.placeholders.dev/350'),
-(10, 'https://images.placeholders.dev/350');
+(11, 'https://i.pinimg.com/236x/95/44/41/9544418361bce353ffa3e6c60ff4e2c8.jpg');
 
 
 
